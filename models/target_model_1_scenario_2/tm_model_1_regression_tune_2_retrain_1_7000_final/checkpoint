@@ -1,0 +1,2 @@
+model_checkpoint_path: "tm_model_1_regression_tune_2_retrain_1_7000_final_weights"
+all_model_checkpoint_paths: "tm_model_1_regression_tune_2_retrain_1_7000_final_weights"
