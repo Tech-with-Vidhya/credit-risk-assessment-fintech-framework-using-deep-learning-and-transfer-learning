@@ -1,4 +1,4 @@
-<h1>CREDIT RISK ASSESSMENT: A FINTECH FRAMEWORK</h1>
+<h1><b>CREDIT RISK ASSESSMENT: A FINTECH FRAMEWORK</b></h1>
 
 <h3>This project represents the credit risk assessment dual framework of predicting credit scores and the forecasts of credit default risk of the consumers of the financial institutions like commercial banks and lending firms.</h3>
 
@@ -13,7 +13,6 @@
 <h3><b><u>2. Project Life-Cycle:</u></b></h3>
 A data science problem solving life-cycle is implemented as illustrated below; with proposed contributions interms of the new domain-tech feature selection approach and transfer learning based architecture for credit risk modelling.
 <br>
-<br>
 
 ![](images/Project_Life-Cycle.jpg)
 
@@ -21,7 +20,6 @@ A data science problem solving life-cycle is implemented as illustrated below; w
 
 <h3><b><u>3. Proposed Transfer Learning Architecture:</u></b></h3>
 Below is the proposed transfer learning architecture of the project with one source task and two target tasks:
-<br>
 <br>
 
 ![](images/Transfer_Learning_Proposed_Architecture.jpg)
@@ -31,7 +29,6 @@ Below is the proposed transfer learning architecture of the project with one sou
 <h3><b><u>4. Transfer Learning Data Split Approach</u></b></h3>
 The project implements a standard data split approach to support the transfer learning's source and target tasks as illustrated below:
 <br>
-<br>
 
 ![](images/Transfer_Learning_Data_Split_Approach.jpg)
 
@@ -40,7 +37,6 @@ The project implements a standard data split approach to support the transfer le
 <h3><b><u>5. Proposed Domain-Tech Feature Selection Approach</u></b></h3>
 As part of the project's implementation; a new 2-stage "Domain-Tech Feature Selection Approach" is proposed as illustrated in the below diagram:
 <br>
-<br>
 
 ![](images/Domain-Tech_Feature_Selection_Approach_Proposed.jpg)
 
@@ -48,7 +44,6 @@ As part of the project's implementation; a new 2-stage "Domain-Tech Feature Sele
 
 <h3><b><u>6. Real-World Performance Results of the Models</u></b></h3>
 Below snapshot represents the real-world performance outcomes of the source model and the two target models on the unseen test/production data:
-<br>
 <br>
 
 ![](images/Real-World_Performance_Outcomes.jpg)
