@@ -4,7 +4,7 @@
 
 <h3>The implementation is dealt that mimics the real-world FICO Scoring Model with the custom enhancements to include lender's internal credit risk factors by proposing a new Domain-Tech Feature Selection Approach along with Deep Learning and Transfer Learning techniques.</h3>
 
-<h3>This is the masters final project delivered as part of my course of studying Masters in Big Data Science program at Queen Mary University of London (QMUL), United Kingdom.</h3>
+<h3>This is the masters final project delivered as part of my course of studying Masters in Big Data Science Program at Queen Mary University of London (QMUL), United Kingdom (January 2021 to January 2022).</h3>
 
 <h3><b><u>1. Dataset:</u></b></h3>
 <h3>The Lending Club Dataset referred for this project is collected from the official Kaggle Website as below:</h3>
