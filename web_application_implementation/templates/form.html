@@ -1,0 +1,265 @@
+<html>
+<body>
+    <h1 style="background-color:DeepSkyBlue;">Credit Risk Assessment Calculator</h1>
+ 
+<div>
+  <form action="/results" method="POST">
+    <br>
+    <h3 style="background-color:yellow;">Credit Risk Factor 1: Payment History</h3>  
+    <label for="pub_rec">Has Any Public Record?</label>
+    <select id="pub_rec" name="pub_rec">
+      <option value="1_pub_rec">No</option>
+      <option value="2_pub_rec">Yes</option>    
+    </select>
+    <br>
+    <br>
+      
+    <label for="delinq_2yrs">Total Number of 30+ Days Delinquencies in the Last 2 years</label>
+    <select id="delinq_2yrs" name="delinq_2yrs">
+      <option value="1_delinq_2yrs">0</option>
+      <option value="3_delinq_2yrs">1</option>
+      <option value="2_delinq_2yrs">More than 1</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="num_tl_120dpd_2m">Has Any Current Accounts 120 Days Past Due?</label>
+    <select id="num_tl_120dpd_2m" name="num_tl_120dpd_2m">
+      <option value="2_num_tl_120dpd_2m">No</option>
+      <option value="1_num_tl_120dpd_2m">Yes</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="pub_rec_bankruptcies">Has Any Public Record Bankruptcies?</label>
+    <select id="pub_rec_bankruptcies" name="pub_rec_bankruptcies">
+      <option value="1_pub_rec_bankruptcies">No</option>
+      <option value="2_pub_rec_bankruptcies">Yes</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="num_tl_90g_dpd_24m">Has Any Current Accounts 90 Days Past Due in the Last 2 Years?</label>
+    <select id="num_tl_90g_dpd_24m" name="num_tl_90g_dpd_24m">
+      <option value="1_num_tl_90g_dpd_24m">No</option>
+      <option value="2_num_tl_90g_dpd_24m">Yes</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="num_accts_ever_120_pd">Has Any Earlier Accounts 120 Days Past Due?</label>
+    <select id="num_accts_ever_120_pd" name="num_accts_ever_120_pd">
+      <option value="1_num_accts_ever_120_pd">No</option>
+      <option value="2_num_accts_ever_120_pd">Yes</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="acc_now_delinq">Has Any Current Delinquent Accounts?</label>
+    <select id="acc_now_delinq" name="acc_now_delinq">
+      <option value="1_acc_now_delinq">No</option>
+      <option value="2_acc_now_delinq">Yes</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="num_tl_30dpd">Has Any Current Accounts 30 Days Past Due?</label>
+    <select id="num_tl_30dpd" name="num_tl_30dpd">
+      <option value="2_num_tl_30dpd">No</option>  
+      <option value="1_num_tl_30dpd">Yes</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="total_rec_late_fee">Has Any Late Fees Payment Applicable?</label>
+    <select id="total_rec_late_fee" name="total_rec_late_fee">
+      <option value="1_total_rec_late_fee">No</option>
+      <option value="2_total_rec_late_fee">Yes</option>
+    </select>
+    <br>
+    <br>
+      
+    <h3 style="background-color:yellow;">Credit Risk Factor 2: Amount Owed</h3>   
+    <label for="num_rev_tl_bal_gt_0">Total Number of Revolving Trades With Balance Greater Than 0</label>
+    <select id="num_rev_tl_bal_gt_0" name="num_rev_tl_bal_gt_0">
+      <option value="1_num_rev_tl_bal_gt_0">0</option>
+      <option value="2_num_rev_tl_bal_gt_0">1 to 5</option>
+      <option value="3_num_rev_tl_bal_gt_0">More than 5</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="percent_bc_gt_75">Percentage of Bank Card Accounts Greater Than 75% Limit</label>
+    <select id="percent_bc_gt_75" name="percent_bc_gt_75">
+      <option value="1_percent_bc_gt_75">0%</option>
+      <option value="2_percent_bc_gt_75">1% to 75%</option>
+      <option value="3_percent_bc_gt_75">More than 75%</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="revol_util">Credit Utilization Rate in Percentage for all Available Revolving Accounts</label>
+    <select id="revol_util" name="revol_util">
+      <option value="1_revol_util">Less Than 15%</option>
+      <option value="2_revol_util">15% to 30%</option>
+      <option value="3_revol_util">31% to 60%</option>
+      <option value="4_revol_util">More than 60%</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="il_util">Credit Utilization Rate in Percentage for all Installment Accounts</label>
+    <select id="il_util" name="il_util">
+      <option value="1_il_util">0%</option>
+      <option value="2_il_util">1% to 80%</option>
+      <option value="3_il_util">More than 80%</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="max_bal_bc">Maximum Current Balance Owed on all Revolving Accounts</label>
+    <select id="max_bal_bc" name="max_bal_bc">
+      <option value="1_max_bal_bc">0 to 2500</option>
+      <option value="2_max_bal_bc">2501 to 5000</option>
+      <option value="3_max_bal_bc">5001 to 10000</option>
+      <option value="4_max_bal_bc">More than 10000</option>
+    </select>
+    <br>
+    <br>
+      
+    <h3 style="background-color:yellow;">Credit Risk Factor 3: Length of the Credit History</h3>   
+    <label for="mo_sin_old_rev_tl_op">Time Since the Oldest Revolving Account Opened</label>
+    <select id="mo_sin_old_rev_tl_op" name="mo_sin_old_rev_tl_op">
+      <option value="1_mo_sin_old_rev_tl_op">Less than or Equal to 2 Years</option>
+      <option value="2_mo_sin_old_rev_tl_op">2 to 5 Years</option>
+      <option value="3_mo_sin_old_rev_tl_op">More than 5 Years</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="months_since_earliest_cr_line">Time Since the Earliest Reported Credit Line was Opened</label>
+    <select id="months_since_earliest_cr_line" name="months_since_earliest_cr_line">
+      <option value="1_months_since_earliest_cr_line">Less than or Equal to 2 Years</option>
+      <option value="2_months_since_earliest_cr_line">2 to 5 Years</option>
+      <option value="3_months_since_earliest_cr_line">More than 5 Years</option>
+    </select>
+    <br>
+    <br>
+      
+    <h3 style="background-color:yellow;">Credit Risk Factor 4: Credit Mix</h3>   
+    <label for="open_acc">Total Number of Open Credit Accounts</label>
+    <select id="open_acc" name="open_acc">
+      <option value="1_open_acc">Less than or Equal to 5</option>
+      <option value="2_open_acc">6 to 8</option>
+      <option value="3_open_acc">More than 8</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="num_sats">Total Number of Satisfactory Accounts</label>
+    <select id="num_sats" name="num_sats">
+      <option value="1_num_sats">Less than or Equal to 5</option>
+      <option value="2_num_sats">6 to 8</option>
+      <option value="3_num_sats">More than 8</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="mort_acc">Total Number of Mortgage Accounts</label>
+    <select id="mort_acc" name="mort_acc">
+      <option value="1_mort_acc">0</option>
+      <option value="2_mort_acc">1 to 3</option>
+      <option value="3_mort_acc">More than 3</option>
+    </select>
+    <br>
+    <br>
+      
+    <h3 style="background-color:yellow;">Credit Risk Factor 5: New Credit</h3>   
+    <label for="inq_last_6mths">Total Number of Inquiries in the Past 6 Months</label>
+    <select id="inq_last_6mths" name="inq_last_6mths">
+      <option value="1_inq_last_6mths">0</option>
+      <option value="2_inq_last_6mths">1</option>
+      <option value="3_inq_last_6mths">More than 1</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="open_il_12m">Total Number of Installed Accounts Opened in the Past 12 Months</label>
+    <select id="open_il_12m" name="open_il_12m">
+      <option value="1_open_il_12m">0</option>
+      <option value="2_open_il_12m">1</option>
+      <option value="3_open_il_12m">More than 1</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="num_tl_op_past_12m">Total Number of Accounts Opened in the Past 12 Months</label>
+    <select id="num_tl_op_past_12m" name="num_tl_op_past_12m">
+      <option value="1_num_tl_op_past_12m">0</option>
+      <option value="2_num_tl_op_past_12m">1</option>
+      <option value="3_num_tl_op_past_12m">2</option>
+      <option value="4_num_tl_op_past_12m">3</option>
+      <option value="5_num_tl_op_past_12m">More than 3</option>
+    </select>
+    <br>
+    <br>
+    
+    <h3 style="background-color:yellow;">Credit Risk Factor 6: Lender's Internal</h3>   
+    <label for="annual_inc">Annual Income</label>
+    <select id="annual_inc" name="annual_inc">
+      <option value="1_annual_inc">0 to 25000</option>
+      <option value="2_annual_inc">25001 to 50000</option>
+      <option value="3_annual_inc">50001 to 75000</option>
+      <option value="4_annual_inc">75001 to 100000</option>
+      <option value="5_annual_inc">More than 100000</option>  
+    </select>
+    <br>
+    <br>
+      
+    <label for="dti">Debt to Income Ratio in Percentage</label>
+    <select id="dti" name="dti">
+      <option value="1_dti">0% to 36%</option>
+      <option value="2_dti">More than 36%</option>
+    </select>
+    <br>
+    <br>
+      
+    <label for="emp_length_int">Total Employment Tenure</label>
+    <select id="emp_length_int" name="emp_length_int">
+      <option value="1_emp_length_int">Less than 1 Year</option>
+      <option value="2_emp_length_int">1 to 2 Years</option>
+      <option value="3_emp_length_int">3 to 5 Years</option>
+      <option value="4_emp_length_int">6 to 9 Years</option>
+      <option value="5_emp_length_int">More than 9 Years</option>  
+    </select>
+    <br>
+    <br>
+    <br>
+      
+    <br>
+    <!--  
+    <form action="/" method="POST">
+        <input type="submit" value="Calculate">
+    -->
+    <button style="background-color:DarkGreen; border-color:white; color:white; height:50px; width:130px; 
+                   text-align:center; font-size:20px">Calculate</button>
+      
+    <input type="reset" value="Reset" style="background-color:blue; border-color:white; color:white; height:50px;      
+                width:130px; text-align:center; font-size:20px"/>
+        
+    <!--   
+    <form-submit-button style="background-color: LightGreen; height:50px; width:130px; text-align:center; font-size:20px" 
+                        type="button">
+    Calculate   
+    </form-submit-button>
+    -->
+
+    
+        
+    <br>
+    <br>  
+        
+  </form>
+</div>
+</body>
+</html>

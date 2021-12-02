@@ -1,0 +1,50 @@
+<html>
+<body>
+    <h1 style="background-color:DodgerBlue;">Credit Risk Scoring Calculator</h1>
+ 
+<div>
+  <form action="/result" method="POST">
+    <br>  
+    <label for="pub_rec">Has Public Record?</label>
+    <select id="pub_rec" name="pub_rec">
+      <option value="0">No</option>
+      <option value="1">Yes</option>    
+    </select>
+    <br>
+    <br>
+    <label for="delinq_2yrs">Number of 30+ Days Delinquencies in the Last 2 years</label>
+    <select id="delinq_2yrs" name="delinq_2yrs">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">More than 1</option>
+    </select>
+    <br>
+    <br>
+    <label for="num_tl_120dpd_2m">Has Any Current Accounts 120 Days Past Due?</label>
+    <select id="num_tl_120dpd_2m" name="num_tl_120dpd_2m">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <br>
+    <label for="pub_rec_bankruptcies">Has Public Record Bankruptcies?</label>
+    <select id="pub_rec_bankruptcies" name="pub_rec_bankruptcies">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <br>
+    <label for="num_tl_90g_dpd_24m">Has Any Current Accounts 90 Days Past Due in the Last 2 Years?</label>
+    <select id="num_tl_90g_dpd_24m" name="num_tl_90g_dpd_24m">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <br>
+    
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
