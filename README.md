@@ -11,4 +11,4 @@ The Lending Club Dataset referred for this project is collected from the officia
 **Project Life-Cycle:**
 A data science problem solving life-cycle is implemented as illustrated below; with proposed contributions interms of the new domain-tech feature selection approach and transfer learning based architecture for credit risk modelling.
 
-<img src=“https://github.com/Tech-with-Vidhya/credit-risk-assessment-fintech-framework/blob/e02c6ccd60be7296269c66a9859f01660d1e4707/images/Project_Life-Cycle.jpg” width="800" />
+![Alt text](https://github.com/Tech-with-Vidhya/credit-risk-assessment-fintech-framework/blob/e02c6ccd60be7296269c66a9859f01660d1e4707/images/Project_Life-Cycle.jpg?raw=true “Project Life-Cycle”)
