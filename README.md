@@ -1,4 +1,4 @@
-<h1><b>CREDIT RISK ASSESSMENT: A FINTECH FRAMEWORK</b></h1>
+<h1><b>CREDIT RISK ASSESSMENT: A FINTECH FRAMEWORK USING DEEP LEARNING AND TRANSFER LEARNING</b></h1>
 
 <h3>This project represents the credit risk assessment dual framework of predicting credit scores and the forecasts of credit default risk of the consumers of the financial institutions like commercial banks and lending firms.</h3>
 
