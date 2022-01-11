@@ -56,7 +56,6 @@ Below snapshot represents the real-world performance outcomes of the source mode
 
 ![](images/Real-World_Performance_Outcomes.jpg)
 
-<br>
 
 <h3><b><u>7. Project Achievements</u></b></h3>
 As part of this project's implementation; we were able to achieve below key points both from domain and technology perspective:
@@ -84,7 +83,6 @@ Below snapshot represents the possible business use cases to use the dual soluti
 
 ![](images/Business_Use_Cases_To_Use_Dual_Solution.jpg)
 
-<br>
 
 <h3><b><u>9. Dual Solution Implementation in a Web Application</u></b></h3>
 Below snapshot represents the implementation of the dual solution in a Web UI application for demonstration purposes.
