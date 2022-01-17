@@ -79,7 +79,7 @@ Technology:
 * Derived a solution for the regression problem statement of predicting the credit scores of individuals from a binary classification problem of fico score status as "Good-" and "Good+" through the implementation of the Transfer Learning technology.
 * Reusability of the existing learnings through the implementation of the Transfer Learning technology.
 * Proposed and implemented a new feature selection approach named "Domain-Tech Feature Selection Approach".
-* A reasonable and justifiable real-world performance results form a first of its kind solution to be leveraged by the financial institutions.
+* A reasonable and justifiable real-world performance results for a first of its kind solution to be leveraged by the financial institutions.
 * A potential baseline credit risk model to be considered for any further future enhancements.
 
 <h3><b><u>8. Real-World Business Use Cases to Use the Dual Solution</u></b></h3>
