@@ -95,6 +95,8 @@ Below snapshot represents the possible business use cases to use the dual soluti
 
 <h3><b><u>9. Dual Solution Implementation in a Web Application</u></b></h3>
 The dual solution framework is embedded into a Flask based Python Web Application for making real-time inferrences.
+<br>
+<br>
 Below snapshot represents the implementation of the dual solution in a Web UI application for demonstration purposes.
 <br>
 <br>
