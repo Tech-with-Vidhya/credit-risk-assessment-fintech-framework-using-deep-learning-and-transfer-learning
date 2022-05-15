@@ -69,6 +69,7 @@ Below snapshot represents the real-world performance outcomes of the source mode
 As part of this project's implementation; we were able to achieve below key points both from domain and technology perspective:
 
 <br>
+<br>
 
 Domain:
 * A real-world equivalent credit risk framework similar to the market leading FICO Scoring Model; amended with the additional business critical domain related enhancements to include the non-fico related credit risk factors that are considered critical by the lenders; to ensure completeness in the evaluation of the credibility of an individual.
