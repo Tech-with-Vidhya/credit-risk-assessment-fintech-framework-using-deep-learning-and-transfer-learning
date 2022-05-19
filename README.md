@@ -105,3 +105,6 @@ Below snapshot represents the implementation of the dual solution in a Web UI ap
 ![](images/Dual_Solution_Implementation_In_Web_Application.jpg)
 
 <br>
+
+<h3><b><u>GitHub Project Link of the Credit Risk Assessment Dual Framework Deployment into AWS EC2 and Serverless Fargate Instances:</u></b></h3>
+<h3><a href="https://github.com/Tech-with-Vidhya/dockerizing_credit_risk_assessment_python_flask_web_app_ML_models_deployment_AWS_ECR_ECS_Fargate_EC2" style="color: blue"><b><u>Credit Risk Assessment Dual Framework Deployment into AWS Instances</u></b></a></h3>
